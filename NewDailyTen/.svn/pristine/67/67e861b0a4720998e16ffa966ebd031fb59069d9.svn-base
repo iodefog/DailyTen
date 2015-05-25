@@ -1,0 +1,43 @@
+//
+// Prefix header for all source files of the 'DailyTen' target in the 'DailyTen' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <AudioToolbox/AudioToolbox.h>
+    #import <AVFoundation/AVFoundation.h>
+    #import <RennSDK/RennSDK.h>
+    #import <TencentOpenAPI/TencentOAuth.h>
+    #import <TencentOpenAPI/TencentOAuthObject.h>
+    #import <TencentOpenAPI/TencentApiInterface.h>
+    #import <TencentOpenAPI/QQApiInterface.h>
+
+
+    #import "APService.h"
+    #import "HysteriaPlayer.h"
+    #import "PreviewHeaders.h"
+    #import "AFNetworking.h"
+    #import "Global.h"
+    #import "LBFileClient.h"
+
+    #import "AccountHelper.h"
+    #import "AccountDTO.h"
+
+#ifndef __OPTIMIZE__
+# define NSLog(...) NSLog(__VA_ARGS__)
+#else
+# define NSLog(...) {}
+#endif
+
+#endif
