@@ -11,7 +11,6 @@
 		0493089D17E3A33E0096BFDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0493089C17E3A33E0096BFDB /* SystemConfiguration.framework */; };
 		0493089F17E3A3990096BFDB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0493089E17E3A3990096BFDB /* CoreMedia.framework */; };
 		04CFA41917E20BF7000BCD89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFA41817E20BF7000BCD89 /* QuartzCore.framework */; };
-		4F0BE4831B1306B60016AE4F /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0BE4821B1306B60016AE4F /* TencentOpenAPI.framework */; };
 		4FADE3611B1EF4D9007E8502 /* LaunchImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FADE1F41B1EF4D7007E8502 /* LaunchImageTransition.m */; };
 		4FADE3621B1EF4D9007E8502 /* LBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FADE1F61B1EF4D7007E8502 /* LBRootViewController.m */; };
 		4FADE3631B1EF4D9007E8502 /* LBCacheAudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FADE1FA1B1EF4D7007E8502 /* LBCacheAudioCell.m */; };
@@ -274,7 +273,6 @@
 		0493089C17E3A33E0096BFDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0493089E17E3A3990096BFDB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		04CFA41817E20BF7000BCD89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4F0BE4821B1306B60016AE4F /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		4FADE1F31B1EF4D7007E8502 /* LaunchImageTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageTransition.h; sourceTree = "<group>"; };
 		4FADE1F41B1EF4D7007E8502 /* LaunchImageTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchImageTransition.m; sourceTree = "<group>"; };
 		4FADE1F51B1EF4D7007E8502 /* LBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBRootViewController.h; sourceTree = "<group>"; };
@@ -649,7 +647,6 @@
 				0493089F17E3A3990096BFDB /* CoreMedia.framework in Frameworks */,
 				88E6BEC917E2FAA40003E75D /* AudioToolbox.framework in Frameworks */,
 				4FADE3B01B1EF4D9007E8502 /* libWeChatSDK.a in Frameworks */,
-				4F0BE4831B1306B60016AE4F /* TencentOpenAPI.framework in Frameworks */,
 				88E6BEB117E2F5780003E75D /* CFNetwork.framework in Frameworks */,
 				88A6669217DE09330049E7D0 /* libFnoDailyTen.a in Frameworks */,
 				880C908D17DC1A8800CCCD30 /* UIKit.framework in Frameworks */,
@@ -1312,7 +1309,6 @@
 				88A95DCD17F1DA9300FB50DC /* CoreTelephony.framework */,
 				88A95DCB17F1DA6600FB50DC /* libsqlite3.dylib */,
 				88A95DC917F1DA4100FB50DC /* libstdc++.dylib */,
-				88A95D7B17F1B02E00FB50DC /* Frameworks */,
 				0493089E17E3A3990096BFDB /* CoreMedia.framework */,
 				0493089C17E3A33E0096BFDB /* SystemConfiguration.framework */,
 				0493089A17E3A3120096BFDB /* AVFoundation.framework */,
@@ -1334,15 +1330,6 @@
 				88A6660C17DE08D90049E7D0 /* libFnoDailyTen.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		88A95D7B17F1B02E00FB50DC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4F0BE4821B1306B60016AE4F /* TencentOpenAPI.framework */,
-			);
-			name = Frameworks;
-			path = DailyTen/Model/Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
