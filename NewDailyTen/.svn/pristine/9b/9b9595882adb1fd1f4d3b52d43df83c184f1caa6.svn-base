@@ -1,9 +1,0 @@
-//
-// Prefix header for all source files of the 'FnoDailyTen1' target in the 'FnoDailyTen1' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-    #import <UIKit/UIKit.h>
-    #import "../../DailyTen/DailyTen/Model/3rParty/AFNetworking/UIImageView+AFNetworking.h"
-#endif
