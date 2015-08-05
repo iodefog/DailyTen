@@ -326,7 +326,7 @@
     
     NSLog(@"item %@" ,item);
     if ([self.musicDto parse2:item]) {
-        //        [[AudioPlayer shareInstance] configurationButtonImages:self.musicDto.musicUrl];
+                [[AudioPlayer shareInstance] configurationButtonImages:self.musicDto.musicUrl];
         
         // 把播放列表传入播放器
         NSMutableArray *mArray = [NSMutableArray array];
@@ -336,9 +336,9 @@
                 [mArray addObject:[mDict objectForKey:@"address"]];
             }
         }
-//        if (mArray.count>0) {
-//            ((AudioPlayer *)[AudioPlayer shareInstance]).musicUrlArray = mArray;
-//        }
+        if (mArray.count>0) {
+            ((AudioPlayer *)[AudioPlayer shareInstance]).musicUrlArray = mArray;
+        }
         UIButton *loveButton = (id)[self viewWithTag:1001];
         [loveButton setSelected:NO];
         // 判断音乐url 是否已经存在于本地

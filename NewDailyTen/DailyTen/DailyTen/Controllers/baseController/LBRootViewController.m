@@ -161,6 +161,14 @@
 //                applicationsVC.view.top = 64;
 //                applicationsVC.view.height = self.view.height - 64 - 44;
 //            }
+            UIViewController *applicationsVC = [[UIViewController alloc] init];
+            [self.subVCsArray replaceObjectAtIndex:index.intValue withObject:applicationsVC];
+            [self addChildViewController:applicationsVC];
+            applicationsVC.view.frame = CGRectMake(0, 0, 320, self.view.height - 44);
+            if (IS_IOS7) {
+                applicationsVC.view.top = 64;
+                applicationsVC.view.height = self.view.height - 64 - 44;
+            }
         }
     }
     viewController = [self.subVCsArray objectAtIndex:index.intValue];

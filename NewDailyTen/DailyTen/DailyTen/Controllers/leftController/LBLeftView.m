@@ -554,6 +554,7 @@
             [_playerVideoView setImageId:_leboDTO.photoUrl];
             [_playerVideoView setMovieId:_leboDTO.movieUrl];
             
+            [_playerVideoView setMovieId:@"http://js.tudouui.com/bin/player2/olc_8.swf?iid=227538343&swfPath=http://js.tudouui.com/bin/lingtong/SocialPlayer_163.swf&tvcCode=-1&tag=%E6%80%A7%E6%84%9F%E7%83%AD%E8%88%9E%2C%E7%BE%8E%E5%A5%B3%E8%A7%86%E9%A2%91&title=%E5%85%81%E7%86%9920150403++13&mediaType=vi&totalTime=200000&hdType=1&hasPassword=1&nWidth=-1&isOriginal=0&channelId=14&nHeight=-1&banPublic=false&videoOwner=437024124&videoOwner=437024124&ocode=Y3K3QVu-x_M&tict=3&channelId=14&cs=&k=%E6%80%A7%E6%84%9F%E7%83%AD%E8%88%9E|%E7%BE%8E%E5%A5%B3%E8%A7%86%E9%A2%91&panelRecm=http://css.tudouui.com/bin/lingtong/PanelRecm_9.swz&panelDanmu=http://css.tudouui.com/bin/lingtong/PanelDanmu_18.swz&panelEnd=http://css.tudouui.com/bin/lingtong/PanelEnd_13.swz&pepper=http://css.tudouui.com/bin/binder/pepper_17.png&panelShare=http://css.tudouui.com/bin/lingtong/PanelShare_7.swz&panelCloud=http://css.tudouui.com/bin/lingtong/PanelCloud_12.swz&hasWaterMark=1&autoPlay=false&listType=0&rurl=&amp;resourceId=28965907_04_05_99&amp;rpid=28965907&autostart=false&snap_pic=http%3A%2F%2Fg4.tdimg.com%2Fee3bbf186df831f24bfe132054b17b64%2Fw_2.jpg&code=XXL9vSdz4zQ&aopRate=0.001&p2pRate=0.95&adSourceId=81000&yjuid=null&yseid=null&yseidtimeout=null&yseidcount=null&uid=null&juid=null&vip=0"];
             if(_leboDTO.digest == 1)
             {
                 [_recommendImageView removeFromSuperview];

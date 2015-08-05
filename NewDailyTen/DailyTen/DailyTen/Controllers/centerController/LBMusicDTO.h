@@ -18,10 +18,10 @@
     BOOL love;
 }
 
-@property (nonatomic, readonly)NSString *musicUrl;
-@property (nonatomic, readonly)NSString *imageUrl;
-@property (nonatomic, readonly)NSString *descripTion;
-@property (nonatomic, readonly)NSString *name;
+@property (nonatomic, retain)NSString *musicUrl;
+@property (nonatomic, retain)NSString *imageUrl;
+@property (nonatomic, retain)NSString *descripTion;
+@property (nonatomic, retain)NSString *name;
 @property (nonatomic, retain)id btn;
 @property (nonatomic, assign)BOOL loop;
 @property (nonatomic, assign)BOOL love;

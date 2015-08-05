@@ -58,6 +58,18 @@
     [self createErrorView];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(modeDataChange) name:@"modeDataChange" object:nil];
+//    LBMusicDTO *dto = [[LBMusicDTO alloc] init];
+//    dto.musicUrl = @" http://music.163.com/outchain/player?type=2&id=28018075&auto=1&height=66";
+//    dto.name = @"风之影";
+//    dto.imageUrl = @"http://imgsize.ph.126.net/?imgurl=http://p1.music.126.net/BgIHV6Bdc1fOL8exoLAHIg==/1694347418408441.jpg_500x500x0x95.jpg";
+//    dto.descripTion = @"音乐页面";
+
+    NSDictionary *dic = @{@"address":@"/Users/lhl/Downloads/ssssss.mp3",
+                          @"background":@"http://p1.music.126.net/BgIHV6Bdc1fOL8exoLAHIg==/1694347418408441.jpg_500x500x0x95.jpg",
+                          @"describe":@"音乐页面",
+                          @"name":@"风之影",
+                          @"love":@"1"};
+    self.model = @[dic];
 }
 
 - (void)modeDataChange{
@@ -201,7 +213,7 @@
 }
 
 - (void)didFinishLoad:(id)array {
-    
+    return;
     [_errorView removeFromSuperview];
     
     if(_activityIndicator)

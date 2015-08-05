@@ -256,6 +256,7 @@
 		88E6BEB117E2F5780003E75D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E6BEB017E2F5770003E75D /* CFNetwork.framework */; };
 		88E6BEC917E2FAA40003E75D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E6BEC817E2FAA40003E75D /* AudioToolbox.framework */; };
 		88E6BEFE17E36A090003E75D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E6BEFD17E36A080003E75D /* CoreText.framework */; };
+		C7F9C4AF1B72187B00E2970E /* ssssss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7F9C4AE1B72187B00E2970E /* ssssss.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -619,6 +620,7 @@
 		88E6BEB017E2F5770003E75D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		88E6BEC817E2FAA40003E75D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		88E6BEFD17E36A080003E75D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C7F9C4AE1B72187B00E2970E /* ssssss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ssssss.mp3; path = ../../../../../../Downloads/ssssss.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1283,6 +1285,7 @@
 		880C908017DC1A8800CCCD30 = {
 			isa = PBXGroup;
 			children = (
+				C7F9C4AE1B72187B00E2970E /* ssssss.mp3 */,
 				4FADE1F01B1EF4D7007E8502 /* DailyTen */,
 				88A6660717DE08D80049E7D0 /* FnoDailyTen.xcodeproj */,
 				880C908B17DC1A8800CCCD30 /* Frameworks */,
@@ -1497,6 +1500,7 @@
 				4FADE3ED1B1EF4DA007E8502 /* btn_more_icon_select.png in Resources */,
 				4FADE4301B1EF4DA007E8502 /* sns_icon_weixin_friends@2x.png in Resources */,
 				4FADE4031B1EF4DA007E8502 /* lover_red.png in Resources */,
+				C7F9C4AF1B72187B00E2970E /* ssssss.mp3 in Resources */,
 				4FADE4121B1EF4DA007E8502 /* single_cycle.png in Resources */,
 				4FADE43F1B1EF4DA007E8502 /* umeng_fb_audio_dialog_content@2x.png in Resources */,
 				4FADE42E1B1EF4DA007E8502 /* sns_icon_weixin@2x.png in Resources */,
